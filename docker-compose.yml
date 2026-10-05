@@ -1,0 +1,7 @@
+services:
+  mariage:
+    build: .
+    container_name: mariage-kilian-justine
+    ports:
+      - "8080:80"
+    restart: unless-stopped
